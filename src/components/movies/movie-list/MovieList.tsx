@@ -38,7 +38,7 @@ const MovieList: React.FC = () => {
   return (
     <div>
       <SearchFilter onChange={searchMovie} />
-      {renderMovie()}
+      <div className="flex flex-row flex-wrap justify-center">{renderMovie()}</div>
     </div>
   );
 };

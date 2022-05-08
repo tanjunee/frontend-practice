@@ -10,9 +10,16 @@ const SearchFilter: React.FC<Props> = ({ onChange }) => {
   };
 
   return (
-    <>
-      <input type="text" placeholder="Title" onChange={onChangeHandler} />
-    </>
+    <div className="flex items-center justify-center">
+      <div className="flex border-2 border-gray-200 rounded">
+        <input
+          type="text"
+          className="px-4 py-2 w-80"
+          placeholder="Search movie title here..."
+          onChange={onChangeHandler}
+        />
+      </div>
+    </div>
   );
 };
 
