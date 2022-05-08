@@ -7,5 +7,5 @@ export interface MovieResult {
   adult: boolean;
   title: string;
   overview: string;
-  posterPath: string;
+  poster_path: string;
 }
